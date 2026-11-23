@@ -1,0 +1,15 @@
+/*
+ * Estilos globales mínimos.
+ *
+ * El template de Vite traía estilos de demostración (ancho fijo de #root,
+ * tipografía gigante, texto centrado, tema oscuro) que rompían el diseño de
+ * Bootstrap. Se eliminaron a propósito.
+ *
+ * Los estilos del proyecto viven en:
+ * - src/styles/sicvet.css  (copia del prototipo)
+ * - src/styles/theme.css   (ajustes propios, cuando hagan falta)
+ */
+
+body {
+  margin: 0;
+}
