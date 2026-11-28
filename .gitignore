@@ -1,0 +1,28 @@
+# ============================================================
+# ARCHIVOS QUE NO DEBEN SUBIRSE AL REPOSITORIO
+# ============================================================
+
+# Dependencias instaladas.
+node_modules/
+
+# Variables de entorno con secretos (JWT_SECRET, etc.).
+.env
+.env.local
+.env.*.local
+
+# Compilados del frontend.
+dist/
+dist-ssr/
+
+# Registros.
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Configuración de editores y sistema operativo.
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db

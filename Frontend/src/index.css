@@ -1,15 +1,43 @@
 /*
- * Estilos globales mínimos.
- *
- * El template de Vite traía estilos de demostración (ancho fijo de #root,
- * tipografía gigante, texto centrado, tema oscuro) que rompían el diseño de
- * Bootstrap. Se eliminaron a propósito.
- *
- * Los estilos del proyecto viven en:
- * - src/styles/sicvet.css  (copia del prototipo)
- * - src/styles/theme.css   (ajustes propios, cuando hagan falta)
+ * ============================================================
+ * ESTILOS GLOBALES PROPIOS
+ * ============================================================
+ * Aquí solo van los ajustes que no existen en el prototipo.
+ * Los estilos heredados del prototipo viven en styles/sicvet.css.
+ * Bootstrap se importa primero en main.jsx.
  */
 
+/* Quita el margen por defecto del navegador. */
 body {
   margin: 0;
+  background-color: #f8f9fa;
+}
+
+/* ------------------------------------------------------------
+ * Sidebar de la aplicación
+ * ------------------------------------------------------------ */
+
+/* En escritorio ocupa todo el alto de la ventana y un ancho fijo. */
+.sicvet-sidebar {
+  width: 240px;
+  flex-shrink: 0;
+  min-height: 100vh;
+}
+
+/* Fondo oscuro que aparece detrás del menú móvil. */
+.sicvet-overlay {
+  position: fixed;
+  inset: 0;
+  background-color: rgba(0, 0, 0, 0.35);
+  z-index: 1040;
+}
+
+/* Menú lateral deslizante en pantallas pequeñas. */
+.sicvet-sidebar-movil {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 1045;
+  overflow-y: auto;
 }

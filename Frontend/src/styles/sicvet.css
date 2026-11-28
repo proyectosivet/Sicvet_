@@ -1,8 +1,14 @@
-/* Shared SICVET styles migrated from the project HTML pages. */
-/* Each selector preserves the original inline style declaration. */
-/* Repeated class selectors keep these rules ahead of ordinary utility classes. */
+/*
+ * ============================================================
+ * ESTILOS COMPARTIDOS DE SICVET
+ * ============================================================
+ * Provienen del prototipo HTML (Docs/Prototipo/styles.css).
+ * El selector duplicado (.clase.clase) mantiene la especificidad
+ * por encima de las utilidades de Bootstrap, igual que en el
+ * prototipo original.
+ */
 
-/* sicvet-inline-style-001: background-image: url(/assets/dashboard/img/fondo\ registro.png); background-size: cover; background-position: center; background-repeat: no-repeat; background-attachment: fixed; */
+/* sicvet-inline-style-001: Fondo de las pantallas de autenticación. */
 .sicvet-inline-style-001.sicvet-inline-style-001 {
   background-image: url(/assets/dashboard/img/fondo\ registro.png);
   background-size: cover;
@@ -11,13 +17,13 @@
   background-attachment: fixed;
 }
 
-/* sicvet-inline-style-002: width:100%; max-width: 440px; */
+/* sicvet-inline-style-002: Ancho máximo de la tarjeta de login/registro/recuperación. */
 .sicvet-inline-style-002.sicvet-inline-style-002 {
-  width:100%;
+  width: 100%;
   max-width: 440px;
 }
 
-/* sicvet-inline-style-003: cursor: pointer; */
+/* sicvet-inline-style-003: Cursor de mano para elementos clicables. */
 .sicvet-inline-style-003.sicvet-inline-style-003 {
   cursor: pointer;
 }
@@ -37,18 +43,18 @@
   width: 240px;
 }
 
-/* sicvet-inline-style-007: width: 40px; height: 40px; */
+/* sicvet-inline-style-007: Contenedor del logo e iconos de métricas. */
 .sicvet-inline-style-007.sicvet-inline-style-007 {
   width: 40px;
   height: 40px;
 }
 
-/* sicvet-inline-style-008: font-size: 0.75rem; */
+/* sicvet-inline-style-008: Texto pequeño secundario. */
 .sicvet-inline-style-008.sicvet-inline-style-008 {
   font-size: 0.75rem;
 }
 
-/* sicvet-inline-style-009: width: 36px; height: 36px; */
+/* sicvet-inline-style-009: Avatar circular del usuario. */
 .sicvet-inline-style-009.sicvet-inline-style-009 {
   width: 36px;
   height: 36px;
